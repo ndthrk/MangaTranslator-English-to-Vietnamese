@@ -11,9 +11,7 @@ Dịch manga từ tiếng Anh sang tiếng Việt (hoặc ngôn ngữ khác nế
 8. **Đầu ra**: Lưu các trang manga đã được dịch dưới dạng ảnh mới.
 
 ## Ví dụ
-
-Dưới đây là một ví dụ về kết quả của MangaTranslator:
-
-![Ví zụ](data/image.png)
-![Ví zụ output](data/output.png)
-
+<p float="left">
+  <img src="data/image.png" width="49%" />
+  <img src="data/output.png" width="49%" />
+</p>
