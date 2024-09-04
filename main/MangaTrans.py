@@ -9,7 +9,7 @@ class MangaTranslator:
 
     def get_result(self, image):
         h, w = image.shape[:2]
-        print(h, w)
+        # print(h, w)
         if h < self.min_H:
             scale = max(self.min_H / h, 1)
             new_w, new_h = int(w * scale), int(h * scale)

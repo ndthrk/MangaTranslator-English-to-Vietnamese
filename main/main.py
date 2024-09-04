@@ -29,10 +29,11 @@ display(rs, 0.4)
 #     return image_with_text
 
 # display(get_result(img_path=img_path), 0.6)
+
 # for chapter in os.listdir(input_dir):
 #     chapter_input_path = os.path.join(input_dir, chapter)
 #     chapter_output_path = os.path.join(output_dir, chapter)
-    
+#     print(f"Translating chapter {chapter}")
 #     if not os.path.exists(chapter_output_path):
 #         os.makedirs(chapter_output_path)
     
@@ -41,7 +42,7 @@ display(rs, 0.4)
 #             img_path = os.path.join(chapter_input_path, image_file)
 #             output_path = os.path.join(chapter_output_path, image_file)
 
-#             rs = get_result(img_path)
-              
+#             rs = trans.get_result(cv2.imread(img_path))
+            
 #             cv2.imwrite(output_path, rs)
 
